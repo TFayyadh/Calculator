@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: rgb(141, 122, 155);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    margin: 18px auto;
+    padding: 18px;
+    border: solid black;
+    border-radius: 12px;
+    
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    padding: 16px;
+    width: 100%;
+    border: dashed black;
+    border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+button{
+    margin: 0px 8px 0px 0px;
+    padding: 8px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+
+.act {
+    background-color: darkblue;
+    color: darkorange;
+}
+
+.oper{
+    background-color: darkslateblue;
+    color: orangered;
+}
