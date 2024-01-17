@@ -7,6 +7,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     background-color: rgb(141, 122, 155);
+ 
 }
 
 .container{
@@ -15,10 +16,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 15%;
-    margin: 18px auto;
+    margin: 10px auto;
     padding: 18px;
     border: solid black;
     border-radius: 12px;
+    
     
 }
 
@@ -34,10 +36,8 @@ body {
 }
 
 .buttons{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;
+    display: grid;
+    gap: 10px;
     
 }
 
@@ -46,6 +46,25 @@ button{
     padding: 8px;
     border-radius: 12px;
     font-weight: bold;
+}
+
+button.oper:hover{
+    background-color: white;
+}
+button.act:hover{
+    background-color: maroon;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+button.equal:hover{
+    background-color: seagreen;
+}
+
+.equal{
+    width: 50%
 }
 
 
