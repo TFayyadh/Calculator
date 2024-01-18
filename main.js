@@ -7,20 +7,26 @@ const equalBtn = document.querySelector(".equal")
 
 
 
-btn.forEach (button =>{
-    button.addEventListener('click', function(e) {
-        display.innerText += button.innerHTML
-    })
-    clearBtn.addEventListener('click', (e) => {
-        display.innerText = ""
-    })
-    equalBtn.addEventListener('click', (e) => {
-        
-    })
-});
+function addToDisplay(input){
+    display.innerHTML += input
+}
 
+function clearDisplay(){
+    display.innerHTML = ""
+}
 
+function calculate(){
+    try{
+        display.innerHTML = eval(display.innerHTML);
+    }
+    catch(error){
+        display.innerHTML = "ERROR"
+    }
+}
 
+function deleteNumber(){
+    display.innerHTML = display.innerHTML.slice(0,-1)
+}
     // deleteBtn.addEventListener('click', (e) => {
     //     display.innerText = display.innerText.slice(0, -1)
     //     })
