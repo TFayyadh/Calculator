@@ -11,26 +11,28 @@
 <div class="container">
 
 
-    <div id = "display" class="output"></div>
+    <div id = "display" class="output">   
+    </div>
+    
     <div class="buttons">
-    <div class="first">
+        <div class="first">
         <button onclick="clearDisplay()" class="act clear">AC</button>
         <button onclick="deleteNumber()" class="act delete">DEL</button>
         <button onclick="addToDisplay('%')" class="oper percent">%</button>
         <button onclick="addToDisplay('+')" class="oper add">+</button>
         <button onclick="addToDisplay('-')" class="oper minus">-</button>
-        
-    </div>
-    <div class="second">
+        </div>
+
+        <div class="second">
         <button onclick="addToDisplay('1')" class="number 1">1</button>
         <button onclick="addToDisplay('2')" class="number 2">2</button>
         <button onclick="addToDisplay('3')" class="number 3">3</button>
         <button onclick="addToDisplay('4')" class="number 4">4</button>
         <button onclick="addToDisplay('*')" class="oper times">x</button>
         <button onclick="addToDisplay('/')" class="oper divide">/</button>
+        </div>
 
-    </div>
-    <div class="third">
+        <div class="third">
         
         <button onclick="addToDisplay('5')" class="number 5">5</button>
         <button onclick="addToDisplay('6')" class="number 6">6</button>
@@ -38,12 +40,14 @@
         <button onclick="addToDisplay('8')" class="number 8">8</button>
         <button onclick="addToDisplay('9')" class="number 9">9</button>
 
-    </div>
-    <div class="fourth">
+        </div>
+    
+        <div class="fourth">
         <button onclick="addToDisplay('0')" class="number 0">0</button>
         <button onclick="addToDisplay('.')" class="number .">.</button>
         <button class="equal" onclick="calculate()">=</button>
         </div> 
+    
     </div>
 </div>
 

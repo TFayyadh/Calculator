@@ -15,23 +15,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 15%;
-    margin: 10px auto;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 18px;
-    border: solid black;
+    border: solid rgb(26, 24, 24);
     border-radius: 12px;
-    
-    
+    background-color: darkgray;
 }
 
 .output{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 18px;
-    padding: 16px;
+    margin-bottom:10px;
+    padding: 10px;
     width: 100%;
-    border: dashed black;
+    height: 25px;
+    border:solid black;
     border-radius: 5px;
 }
 
