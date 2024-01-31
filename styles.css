@@ -66,7 +66,8 @@ button.equal:hover{
 }
 
 .equal{
-    width: 50%
+    width: 30%;
+    background-color: slategrey;
 }
 
 
